@@ -16,7 +16,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # app.config['SQLALCHEMY_DATABASE_URI'] = f"postgresql://{UNAME}:{PWD}@localhost/{DB}"
-app.config['SQLALCHEMY_DATABASE_URI'] = "postgres://ezusfgoifgwjdx:b056c20c226671a8af2faa56cc8673beaacbff256e27a8c5fcb0d85b71eaeff2@ec2-52-206-182-219.compute-1.amazonaws.com:5432/ddc5qcb4dlcp8v"
+app.config['SQLALCHEMY_DATABASE_URI'] = "postgresql://ezusfgoifgwjdx:b056c20c226671a8af2faa56cc8673beaacbff256e27a8c5fcb0d85b71eaeff2@ec2-52-206-182-219.compute-1.amazonaws.com:5432/ddc5qcb4dlcp8v"
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy()
 
