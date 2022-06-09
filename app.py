@@ -10,7 +10,7 @@ load_dotenv()
 # UNAME = os.environ["UNAME"]
 # PWD = os.environ["PWD"]
 # DB = os.environ["DB"]
-DATABASE_URL = os.environ["DATABASE_URL"]
+# DATABASE_URL = os.environ["DATABASE_URL"]
 
 
 app = Flask(__name__)
